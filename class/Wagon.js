@@ -17,7 +17,7 @@ class Wagon{
 
     totalFood(){
       let allFood= 0
-      for (let i= o; i < this.passengers.length; i++){
+      for (let i= 0; i < this.passengers.length; i++){
           let currentPassenger = this.passengers[i]
           allFood += currentPassenger.food
       }
@@ -29,7 +29,7 @@ class Wagon{
         }
 
     }
-}
+
     
 // use should quarantine should use a for loop
     
